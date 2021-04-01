@@ -30,7 +30,7 @@
 ><img width="659" alt="스크린샷 2021-04-01 오후 2 35 24" src="https://user-images.githubusercontent.com/74886546/113248250-815f0e80-92f7-11eb-92f6-42ab0c870722.png">
 
 ## 변환 과정
-<img width="657" alt="스크린샷 2021-04-01 오후 2 36 19" src="https://user-images.githubusercontent.com/74886546/113248303-a05da080-92f7-11eb-8b0f-6e165bbd8244.png"
+> <img width="657" alt="스크린샷 2021-04-01 오후 2 36 19" src="https://user-images.githubusercontent.com/74886546/113248303-a05da080-92f7-11eb-8b0f-6e165bbd8244.png"
 
 
 

@@ -17,7 +17,7 @@
 > <img width="470" alt="스크린샷 2021-04-01 오후 2 34 05" src="https://user-images.githubusercontent.com/74886546/113248130-507ed980-92f7-11eb-8a61-e655c03922de.png">
 4. 스폐셜 토큰: 문장의 시작과 끝 등을 표시하기 위해 다양한 토큰을 
 > <img width="666" alt="스크린샷 2021-04-01 오후 2 30 28" src="https://user-images.githubusercontent.com/74886546/113247876-cf274700-92f6-11eb-8476-f6a9b7ce0dfc.png">
-
+5. ##dms 앞 단어와 이어진다는 것을 의미 ex) embed의 bed는 ##bed로 분할됨 (bed와 다름을 표시하기 위해)
 
 ## encode_plus
 * 버트 토크나이저 구현을 위한 함수

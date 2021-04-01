@@ -23,7 +23,7 @@
 * 버트 토크나이저 구현을 위한 함수
 * text: 입력 텍스트
 * add_special_tokens = bool: 시작점에 CLS, 끝에 SEP 추가됨
-* max_length = MAX_LEN: 최대길이 지정해서 문장의 길이 맞춤
+* max_length = MAX_LEN: 최대길이 지정해서 문장의 길이 맞춤 (아마 최대 길이 512인듯)
 * pad_to_max_length: max_length에 따라 패딩 적용
 * return_attention_mask: attention mask 생성
 > <img width="529" alt="스크린샷 2021-04-01 오후 2 34 33" src="https://user-images.githubusercontent.com/74886546/113248177-62f91300-92f7-11eb-8ffa-237defc63701.png">

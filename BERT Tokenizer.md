@@ -8,6 +8,8 @@
 # BERT Tokenizer 
 * subword tokenizer의 일종으로 단어가 아닌 형태소(?) 단위로 분할됨
 * 기존 토크나이저는 문맥에 상관없이 동일 단어 => 동일 임베딩이었으나, 버트의 경우 문맥에 따라 같은 단어라도 임베딩이 달라진다
+* 소문자 변환 알아서
+
 
 ## 기본 개념
 1. input_ids: 문장을 토크나이즈해서 인덱스 값으로 변환. 버트에서는 단어를 subword 단위로 변환시키는 WordPieceTokenizer 활용
@@ -17,7 +19,8 @@
 > <img width="470" alt="스크린샷 2021-04-01 오후 2 34 05" src="https://user-images.githubusercontent.com/74886546/113248130-507ed980-92f7-11eb-8a61-e655c03922de.png">
 4. 스폐셜 토큰: 문장의 시작과 끝 등을 표시하기 위해 다양한 토큰을 
 > <img width="666" alt="스크린샷 2021-04-01 오후 2 30 28" src="https://user-images.githubusercontent.com/74886546/113247876-cf274700-92f6-11eb-8476-f6a9b7ce0dfc.png">
-5. ##dms 앞 단어와 이어진다는 것을 의미 ex) embed의 bed는 ##bed로 분할됨 (bed와 다름을 표시하기 위해)
+5. ##: 앞 단어와 이어진다는 것을 의미 ex) embed의 bed는 ##bed로 분할됨 (bed와 다름을 표시하기 위해)
+> <img width="746" alt="스크린샷 2021-04-01 오후 2 58 12" src="https://user-images.githubusercontent.com/74886546/113250010-af921d80-92fa-11eb-94a6-df70f053e63b.png">
 
 ## encode_plus
 * 버트 토크나이저 구현을 위한 함수

@@ -1,8 +1,8 @@
 ### 참고문헌
-https://han-py.tistory.com/267
-https://albertauyeung.github.io/2020/06/19/bert-tokenization.html
-https://codlingual.tistory.com/98
-https://huggingface.co/transformers/glossary.html
+* https://han-py.tistory.com/267
+* https://albertauyeung.github.io/2020/06/19/bert-tokenization.html
+* https://codlingual.tistory.com/98
+* https://huggingface.co/transformers/glossary.html
 
 
 # BERT Tokenizer 
